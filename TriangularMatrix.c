@@ -16,7 +16,7 @@ void print(int matrix[MAX][MAX], int rows, int cols)
     {
         for (int j = 0; j < cols; j++)
         {
-            printf(YELLOW "%d " RESET, matrix[i][j]);
+            printf(YELLOW "                                                         %d " RESET, matrix[i][j]);
         }
         printf("\n");
     }
